@@ -26,8 +26,6 @@ textarea{
 
 /* Esto es el Header del proyecto */
 
-/* header{} */
-
 .header{
     width: 90%;
     margin: auto;
@@ -205,15 +203,38 @@ textarea{
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos para el footer */
+footer {
+    background-color: #060138; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
 
-/* .oculto{
-    display: none;
-} */
+footer p {
+    margin: 0;
+}
 
-/* footer{
-    height: 50px;
-    background-color: blueviolet;
-} */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1.2em; 
+    transition: color 0.5s; 
+}
+
+footer a:hover {
+    color: #217d05; 
+}
+
+.copyright {
+    font-size: 0.8em; 
+    margin-top: 10px; 
+}
 
 @media screen and (max-width: 800px){
 
@@ -227,7 +248,7 @@ textarea{
     .button-izquierda {
         display: flex;
         justify-content: center;
-        gap: 10px; /* Agrega espacio entre los botones */
+        gap: 10px;
     }
 
     .btn-encriptar, .btn-desencriptar, .btn-copiar{
